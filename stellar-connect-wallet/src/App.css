@@ -1,0 +1,162 @@
+.App {
+  min-height: 100vh;
+}
+
+.app-shell {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 20px 56px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.hero-section {
+  display: grid;
+  grid-template-columns: 1.3fr 0.9fr;
+  gap: 24px;
+  align-items: center;
+  padding: 32px;
+}
+
+.hero-copy h1 {
+  font-size: clamp(2.2rem, 4vw, 3.3rem);
+  margin: 12px 0 12px;
+}
+
+.hero-copy p {
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #4b5d73;
+  max-width: 660px;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 24px;
+}
+
+.hero-actions a {
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pill {
+  display: inline-flex;
+  align-items: center;
+  background: rgba(0, 210, 255, 0.12);
+  color: #0d6efd;
+  border-radius: 999px;
+  padding: 7px 12px;
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.hero-metrics {
+  display: grid;
+  gap: 14px;
+}
+
+.metric-card {
+  background: linear-gradient(135deg, rgba(255,255,255,0.95), rgba(240,248,255,0.95));
+  border: 1px solid rgba(58, 123, 213, 0.14);
+  border-radius: 16px;
+  padding: 18px 20px;
+  box-shadow: inset 0 1px 0 rgba(255,255,255,0.8);
+}
+
+.metric-card strong {
+  display: block;
+  font-size: 1.25rem;
+  color: #12304a;
+  margin-bottom: 4px;
+}
+
+.metric-card span {
+  color: #607285;
+  font-size: 0.95rem;
+}
+
+.highlights-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 16px;
+}
+
+.highlight-card {
+  padding: 22px;
+}
+
+.highlight-card h3 {
+  margin-bottom: 10px;
+}
+
+.highlight-card p {
+  margin: 0;
+  color: #57697a;
+  line-height: 1.65;
+}
+
+.content-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+.empty-state {
+  text-align: left;
+  padding: 28px;
+}
+
+.empty-state ul {
+  margin-top: 12px;
+  padding-left: 20px;
+  color: #516173;
+  line-height: 1.75;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.topbar-actions {
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.wallet-badge {
+  text-align: right;
+}
+
+.status-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 6px 10px;
+  border-radius: 999px;
+  background: rgba(17, 153, 142, 0.14);
+  color: #0f766e;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+@media (max-width: 900px) {
+  .hero-section {
+    grid-template-columns: 1fr;
+  }
+
+  .highlights-grid,
+  .content-grid {
+    grid-template-columns: 1fr;
+  }
+}
