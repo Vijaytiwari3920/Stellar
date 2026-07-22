@@ -112,7 +112,14 @@ CDNNLMU7MGN7OXZIMOC6FE54XWKMYQSRQKWC4YSMGXTCH2DA4RV5M7QU
 
 # 📷 Screenshots
 
-<video src="./Screenshorts/Web.mp4" width="100%" controls></video>
+<img width="1652" height="788" alt="Screenshot 2026-07-22 234319" src="https://github.com/user-attachments/assets/30fe94b5-80e3-4d20-926b-3d5b2582f121" />
+<img width="1916" height="862" alt="Screenshot 2026-07-22 233456" src="https://github.com/user-attachments/assets/fa9f474c-ee47-4121-8f7f-65fb21fceb0c" />
+<img width="578" height="517" alt="Screenshot 2026-07-22 233438" src="https://github.com/user-attachments/assets/71c271ac-c5ff-4fca-aeb6-73d34bd1597f" />
+<img width="1897" height="733" alt="Screenshot 2026-07-22 233413" src="https://github.com/user-attachments/assets/2c97ccf3-545c-4769-9646-056450accc04" />
+<img width="1917" height="860" alt="Screenshot 2026-07-22 233400" src="https://github.com/user-attachments/assets/8c77bbeb-0861-4ab6-9e26-de1345989e19" />
+<img width="1917" height="848" alt="Screenshot 2026-07-22 233335" src="https://github.com/user-attachments/assets/07723d6d-c1f4-4f37-90b1-2ca5fc93a423" />
+<img width="1917" height="970" alt="Screenshot 2026-07-22 233305" src="https://github.com/user-attachments/assets/4c23f412-c4ca-450e-a6aa-99fc6bc3b174" />
+
 ---
 
 ## 🛠 Tech Stack
