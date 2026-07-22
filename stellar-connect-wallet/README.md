@@ -83,11 +83,14 @@ This application interacts with Soroban Smart Contracts on the Stellar Testnet. 
 [NOT DEPLOYED YET - Awaiting Deployment]
 ```
 - **Source Module**: `contracts/dividend_vault`
-- **Purpose**: Acts as the core RWA (Real World Asset) contract, simulating a tokenized commercial real estate investment.
-- **How it Works**: 
-  - **State Management**: It securely tracks individual investor balances and the total supply of the tokenized asset.
-  - **Yield Accrual**: It implements a global index model where simulated yield (e.g., USDC) continuously accrues over time proportional to the amount of RWA tokens held by an investor.
-  - **Dividend Claims**: It provides a `get_pending_dividend` method for the React UI to read unclaimed yield without gas fees, and a claim operation that securely updates the investor's local index and processes the payout.
+- **Purpose**: Acts as the core RWA (Real World Asset) contract, simulating a tokenized commercial real estate investment where token holders earn proportional yields (dividends) based on their balances.
+- **Core Mechanics & Functions**: 
+  - **Initialization (`initialize`)**: Sets an admin, an initial supply of tokens, and starts the global yield index at 0.
+  - **Minting & Burning (`mint`, `burn`)**: Allows the admin to mint new tokens to users, and users to burn tokens. The contract automatically updates a user's pending rewards before changing their balance to ensure fair distribution.
+  - **Transferring (`transfer`)**: Users can transfer their token balances to others. This triggers a recalculation of both the sender's and receiver's pending rewards to reflect their changing holdings.
+  - **Yield Accrual (`deposit_yield`)**: The admin deposits a yield amount into the vault. This increases a `GlobalYieldIndex` proportionally by the deposit amount divided by the total supply. This constant-time distribution algorithm ensures yield accrues to all holders immediately without needing to iterate over every user.
+  - **Dividend Claims (`claim_dividend`)**: Users can claim their accumulated dividend rewards. The contract calculates pending rewards based on the global index, resets their unclaimed balance, and processes the simulated payout.
+  - **View Functions**: Provides `get_pending_dividend` for the React UI to read a user's currently accumulated but unclaimed dividends without incurring gas fees, alongside `get_balance` and `get_total_supply`.
 - **Role**: Demonstrates institutional-grade asset management, simulating KYC restrictions, yield distribution, and tokenized fractional ownership on the Stellar network.
 
 #### 2. Counter Contract
