@@ -80,7 +80,7 @@ This application interacts with Soroban Smart Contracts on the Stellar Testnet. 
 #### 1. Dividend Vault Contract (RWA Simulation)
 **Contract ID**:
 ```text
-[NOT DEPLOYED YET - Awaiting Deployment]
+CD7LU2KVEVJSWXOOWX6DIOKKDZJ7K4EP6Z4GMKB6LN3FZXASTVD64E5W
 ```
 - **Source Module**: `contracts/dividend_vault`
 - **Purpose**: Acts as the core RWA (Real World Asset) contract, simulating a tokenized commercial real estate investment where token holders earn proportional yields (dividends) based on their balances.
