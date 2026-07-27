@@ -6,6 +6,7 @@ Welcome to the **Stellar Connect Wallet**, a production-oriented React dApp for 
 
 ## 🚀 Features & Implementation Details
 
+ 
 ### 🎨 Futuristic Light Theme & Glassmorphism UI
 The entire application features a custom, modern design utilizing a soft gradient background, translucent "glass" cards (`backdrop-filter`), and vibrant electric blue accents. It is styled around the **Nexus RWA Platform** concept, providing a premium, institutional-grade user experience for testnet demonstrations.
 
