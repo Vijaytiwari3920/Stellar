@@ -65,7 +65,6 @@ This section simulates an institutional-grade investment into a tokenized commer
 
 ---
 
-
 # 📄 Project Information
 
 ### Network
