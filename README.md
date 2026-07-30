@@ -1,11 +1,10 @@
 # Stellar Connect Wallet 
 
-
 Welcome to the **Stellar Connect Wallet**, a production-oriented React dApp for real-world asset investing on Stellar. The platform now combines wallet-native onboarding, transaction workflows, and a stronger Soroban contract foundation designed around RWA-style yield distribution and investor participation.
 
 ---
 
-## 🚀 Features & Implementation Details
+## 🚀 Features & Implementation Details.
 
  
 ### 🎨 Futuristic Light Theme & Glassmorphism UI
