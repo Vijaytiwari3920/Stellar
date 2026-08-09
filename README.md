@@ -75,7 +75,7 @@ This section simulates an institutional-grade investment into a tokenized commer
 
 ### Smart Contracts
 
-This application interacts with Soroban Smart Contracts on the Stellar Testnet. Below is a detailed description of each contract, how it works, and its role in the ecosystem.
+This application interacts with Soroban Smart Contracts on the Stellar Testnet. Below is a detailed description of each contract , how it works. and its role in the ecosystem.
 
 #### 1. Dividend Vault Contract (RWA Simulation)
 **Contract ID**:
