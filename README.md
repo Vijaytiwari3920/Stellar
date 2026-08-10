@@ -32,7 +32,7 @@ Once the wallet is connected, the application asynchronously communicates with t
 ---
 
 ### 4. Sending XLM Payments
-The application features a dedicated **Payment Form** that allows users to send native XLM to any Stellar Testnet address. It handles sequence number resolution via the Horizon API, builds the `payment` operation, requests a signature from Freighter, and seamlessly submits the transaction with full success/failure status tracking.
+The application features a dedicated **Payment Form** that allows users to send native XLM to any Stellar Testnet address. It handles sequence number resolution via the Horizon API, builds the `payment` operation, requests a signature from Freighter, and seamlessly submits the transaction with full success/failure status tracking..
 
 ---
 
