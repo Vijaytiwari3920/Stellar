@@ -73,7 +73,7 @@ This section simulates an institutional-grade investment into a tokenized commer
 ### Wallet
 - Freighter Wallet
 
-### Smart Contracts
+### Smart Contracts.
 
 This application interacts with Soroban Smart Contracts on the Stellar Testnet. Below is a detailed description of each contract , how it works. and its role in the ecosystem.
 
