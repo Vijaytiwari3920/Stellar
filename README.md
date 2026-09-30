@@ -26,7 +26,7 @@ The entire application features a custom, modern design utilizing a soft gradien
 
 ---
 
-### 3. Real-time Balance Handling
+### 3. Real-time Balance Handling.
 Once the wallet is connected, the application asynchronously communicates with the Stellar Horizon server to fetch live account data. The user's **native XLM balance** is automatically parsed and displayed clearly within the application's futuristic topbar, providing immediate visibility into their testnet funds.
 
 ---
