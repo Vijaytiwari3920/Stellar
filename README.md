@@ -10,7 +10,7 @@ Welcome to the **Stellar Connect Wallet**, a production-oriented React dApp for 
 ### 🎨 Futuristic Light Theme & Glassmorphism UI
 The entire application features a custom, modern design utilizing a soft gradient background, translucent "glass" cards (`backdrop-filter`), and vibrant electric blue accents. It is styled around the **Nexus RWA Platform** concept, providing a premium, institutional-grade user, experience for testnet demonstrations.
 
-### 1. Wallet Setup & Configuration
+### 1. Wallet Setup & Configuration.
 - Configured to interact exclusively with the **Stellar Testnet**.
 - Secure integration with the **Freighter Wallet** browser extension.
 - **Session Persistence**: The application utilizes Local Storage to persist the connected wallet address, allowing users to remain logged in across page reloads without having to reconnect Freighter manually.
